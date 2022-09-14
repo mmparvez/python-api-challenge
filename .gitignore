@@ -1,3 +1,4 @@
 *.py
+api_keys.py
 # User-specific files
 Weatherpy/api_keys.py
