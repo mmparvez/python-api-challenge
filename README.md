@@ -7,6 +7,8 @@ Now, we know what you may be thinking: "Duh. It gets hotter..."
 
 But, if pressed, how would you prove it?
 
+![Equator](Images/equatorsign.png)
+
 # Part I - WeatherPy
 
 A Python script was created to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, [simple Python library](https://pypi.python.org/pypi/citipy) and [OpenWeatherMap API](https://openweathermap.org/api) were used.
@@ -67,21 +69,21 @@ There is a moderate positive correlation between latitude and max temperature fo
 
 - Northern Hemisphere - Humidity (%) vs. Latitude
 
-  ![n_humidity](<Images/Northern_Hemisphere_Humidity(%)_vs_Latitude_Linear_Regression.png>)
+  ![n_humidity](<Images/Northern%20Hemisphere%20-%20Humidity%20(%25)%20vs.%20Latitude%20Linear%20Regression.png>)
 
 The r-squared is : 0.47
 There is a moderate positive correlation between latitude and humidity for northern hemisphere.
 
 - Southern Hemisphere - Humidity (%) vs. Latitude
 
-  ![s_humidity](<Images/Southern_Hemisphere_Humidity(%)_vs_Latitude_Linear_Regression.png>)
+  ![s_humidity](<Images/Southern%20Hemisphere%20-%20Humidity%20(%25)%20vs.%20Latitude%20Linear%20Regression.png>)
 
 The r-squared is : 0.29
 There is a moderate positive correlation between latitude and humidity for southern hemisphere.
 
 - Northern Hemisphere - Cloudiness (%) vs. Latitude
 
-  ![n_cloudiness](<Images/Northern_Hemisphere_Cloudiness(%)_vs_Latitude_Linear_Regression.png>)
+  ![n_cloudiness](<Images/Northern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png>)
 
 The r-squared is : 0.23
 There is a weak positive correlation between latitude and cloudiness for northern hemisphere.
@@ -95,14 +97,14 @@ There is a weak positive correlation between latitude and cloudiness for souther
 
 - Northern Hemisphere - Wind Speed (mph) vs. Latitude
 
-  ![n_wind](Images/Northern_Hemisphere_Wind_Speed_vs_Latitude_Linear_Regression.png)
+  ![n_wind](Images/Southern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png)
 
 The r-squared is : 0.1
 There is a weak positive correlation between latitude and windspeed for northern hemisphere.
 
 - Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-  ![s_wind](Images/Southern_Hemisphere_Wind_Speed_vs_Latitude_Linear_Regression.png)
+  ![s_wind](Images/Southern%20Hemisphere%20-%20Wind%20Speed%20(mph)%20vs.%20Latitude%20Linear%20Regression.png)
 
 The r-squared is : -0.24
 There is a weak negative correlation between latitude and wind speed for southern hemisphere.
@@ -120,7 +122,7 @@ Now I want to use my skills in working with weather data to plan future vacation
 
 - Create a heat map that displays the humidity for every city from the part I of the project.
 
-  ![heatmap](Images/Heatmap.png)
+  ![heatmap](Images/Humidity_Heatmap.png)
 
 - Narrow down the DataFrame to find my ideal weather condition. For example:
 
