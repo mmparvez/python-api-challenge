@@ -90,14 +90,14 @@ There is a weak positive correlation between latitude and cloudiness for norther
 
 - Southern Hemisphere - Cloudiness (%) vs. Latitude
 
-  ![s_cloudiness](<Images/Southern_Hemisphere_Cloudiness(%)_vs_Latitude_Linear_Regression.png>)
+  ![s_cloudiness](<Images/Southern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png>)
 
 The r-squared is : 0.08
 There is a weak positive correlation between latitude and cloudiness for southern hemisphere.
 
 - Northern Hemisphere - Wind Speed (mph) vs. Latitude
 
-  ![n_wind](Images/Southern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png)
+  ![n_wind](Images/Northern%20Hemisphere%20-%20Wind%20Speed%20(mph)%20vs.%20Latitude%20Linear%20Regression.png)
 
 The r-squared is : 0.1
 There is a weak positive correlation between latitude and windspeed for northern hemisphere.
