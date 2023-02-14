@@ -134,7 +134,7 @@ Considered 500 cities to find best weather for the vacation.
   - Zero cloudiness.
   - Dropped any rows that don't contain all three conditions.
 
-  ![hotelmap](Images/Ideal_Weather_Hotels.png)
+  ![hotelmap](Images/hotel_map.png)
 
   ## To run the code:
 
