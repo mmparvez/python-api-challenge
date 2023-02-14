@@ -109,27 +109,32 @@ There is a weak positive correlation between latitude and windspeed for northern
 The r-squared is : -0.24
 There is a weak negative correlation between latitude and wind speed for southern hemisphere.
 
-My final notebook must:
+The final notebook have:
 
-- Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
-- Perform a weather check on each of the cities using a series of successive API calls.
-- Include a print log of each city as it's being processed with the city number and city name.
-- Save a CSV of all retrieved data and a PNG image for each scatter plot.
+- 500 unique (non-repeat) cities based on latitude and longitude.
+- A weather check was performed on each of the cities using a series of successive API calls.
+- A print log was included of each city as it's being processed with the city number and city name.
+- Saved a CSV of all retrieved data and a PNG image for each scatter plot.
 
 # Part II - VacationPy
 
-Now I want to use my skills in working with weather data to plan future vacations. I used jupyter-gmaps and the Google Places API.
+Planing future vacations using jupyter-gmaps and the Google Places API.
+Considered 500 cities to find best weather for the vacation.
 
-- Create a heat map that displays the humidity for every city from the part I of the project.
+  ![citiesmap](Images/humidity_map.png)
+
+- A heat map was created that displays the humidity for every city from the part I of the project.
 
   ![heatmap](Images/Humidity_Heatmap.png)
 
-- Narrow down the DataFrame to find my ideal weather condition. For example:
+- Narrowed down the DataFrame to find my ideal weather condition. For example:
 
   - A max temperature lower than 80 degrees but higher than 70.
   - Wind speed less than 10 mph.
   - Zero cloudiness.
-  - Drop any rows that don't contain all three conditions.
+  - Dropped any rows that don't contain all three conditions.
+
+  ![hotelmap](Images/Ideal_Weather_Hotels.png)
 
   ## To run the code:
 
