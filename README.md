@@ -1,4 +1,4 @@
-# Python API Project - What's the Weather Like?
+# Today's best weather
 
 # Background
 Let's asnwer the question "What's the weather like as we approach the equator?"
